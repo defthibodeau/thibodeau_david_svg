@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+.clearfix:after
+{
+	content: " ";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+#container
+{
+	display: inline-block;
+}
+
+main
+{
+  text-align: center;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 60px;
+}
+
+#chatIcon, #cartIcon, #magGlassIcon, #mailIcon, #musicIcon, #phoneIcon, #thumbsUpIcon, #trashCanIcon, #gearIcon, #homeIcon
+{
+	width: 180px;
+}
+
+svg
+{
+	transition: transform .3s;
+	max-height: 250px;
+}
+
+ul li
+{
+	padding: 20px;
+	display: inline-block;
+}
+
+.zoom{
+	transform: scale(1.4);
+}
